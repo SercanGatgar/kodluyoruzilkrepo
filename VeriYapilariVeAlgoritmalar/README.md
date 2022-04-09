@@ -97,3 +97,4 @@ Sağında = 7
                                         ///                             
                                     0
 
+www.patika.dev Veri Yapıları ve Algoritmalar dersi proje ödevidir.
