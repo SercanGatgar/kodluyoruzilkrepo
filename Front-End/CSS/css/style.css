@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bar{
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+}
+
+font{
+    letter-spacing: 2px;
+}
+
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#icerik{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    margin-top: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+h6{
+    font-size: 18px;
+}
+
+.rsm{
+    width: 30%;
+}
+
+.metin{
+    text-align: left;
+    margin: 10px;
+    text-indent: 20px;
+}
+
+h4{
+    text-align: left;
+    margin: 25px;
+}
