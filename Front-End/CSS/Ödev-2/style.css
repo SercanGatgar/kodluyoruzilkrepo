@@ -1,0 +1,108 @@
+/*body kısmına sayfanın genel özellikleri yazılarak tarayıcada görünürlüğü sağlandı*/
+body{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 8px;
+}
+
+/*en üst kısma logo geleceği için logo adında bir class oluşturuldu.  (burada logo sayfanın tek yerinde kullanılacağı için id de kullanılabilirdi.*/
+.logo{
+    width: auto;
+    height: auto;
+}
+
+/*burada ise içerik olarak yönetilen kısmı tek bi yerde toplayarak genel özellikler verildi.*/
+.AnaSutun{
+    display: block;
+    text-align: center;
+    width: 90%;
+    height: 76px;
+    position: relative;
+    margin: auto;
+}
+
+/*içerik kısmının üst tarafında yer alacak kısma ait yani arama kısmına özellikler buradan verildi.*/
+.ust{
+    text-align: center;
+    background-color: #eee;
+    margin-top: 0;
+    margin-bottom: -15px;
+    height: 62px;
+}
+
+/*burda arama textinin uzunluğu yazıldı.*/
+.metin{
+    width: 300px;
+}
+
+/*burada ise en üst kımın ve sonradan gelecek olan divlerler arasında ki mesafeyi ayarlamak için özellikler kullanıldı.*/
+.ust p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: medium;
+}
+
+/*bu kısımda ise içerik olarak belirttiğimiz alanın içinde 3 farklı bölüm oluşturularak sayfa düzeni sağlandı bu kısım 1. bölüm*/
+.connect1{
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #7EE5DA;
+    width: 37%;
+    height: 76px;
+    font-size: medium;
+}
+
+/*burası 2. kısım*/
+.connect2{
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+    background-color:#70CCC2 ;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    font-size: small;
+    height: 76px;
+}
+
+/*burası da 3. kısım*/
+.connect3{
+    display: block;
+    position: relative;
+    margin: auto;
+    float: left;
+    width: 42.8%;
+    background-color: #62B3AA ;
+    font-size: small;
+    height: 76px;
+}
+
+/*burada butonun yanında yer alan link kısmını butondan uzaklaştırmak için kullanılan özellik.(aynı zamanda bunun yerine linke de özellik uygulanarak butondan uzaklaştırılabilir.*/
+.subscribe{
+    margin-right: 10px;
+    
+}
+
+/*burada 1. kısımda paragrafları dikey ortalama yapılması gerekiyordu. Bu kısmı vertical-align ile çözemediğim için bu şekilde ayarlamaya çalıştım*/
+.connect1 p{
+    display:block;
+    margin-top: -3px;
+}
+
+/*burada sayfada yer alan parafraflara genel özellik tanımlandı*/
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*burda da footer kısmı ayarlandı*/
+.alt{
+    font-size: small;
+    clear: both;
+    margin-top: 80px;
+}
